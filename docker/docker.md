@@ -21,7 +21,10 @@ Os containers assim como as vms rodam aplicações de forma isolada do sistema d
 
 Isso faz com que ganhemos aumento de desempenho pois o container está sendo executado pelo host, e reduz também o uso de recursos do host já que as imagens do container são beeeeeemmmm menores do que o espaço que uma VM precisa para existir, ou seja, podemos exucutar muito mais containers do que vms no mesmo host. Assim como as vms os conateiners também possuem uma interface de rede para que eles possam ser expostos ao mundo. 
 
-Por imagem aqui
+Abaixo temos uma imagem que mostra essa difereça:
+
+<img width="734" alt="image" src="https://user-images.githubusercontent.com/30262806/189227284-a74b07d0-bc08-46a2-8351-d223d8f55341.png"> (3)
+
 ## Docker
 
 
@@ -29,6 +32,6 @@ Por imagem aqui
 -----------------------------------
 ## Referências
 
-- [O que é virtualização?](https://www.redhat.com/pt-br/topics/virtualization/what-is-virtualization)
-- [Livro Descomplicando Docker](https://livro.descomplicandodocker.com.br/chapters/chapter_01.html)
-- [O que é um container Linux?](https://www.redhat.com/pt-br/topics/containers/whats-a-linux-container)
+- 1: [O que é virtualização?](https://www.redhat.com/pt-br/topics/virtualization/what-is-virtualization)
+- 2: [Livro Descomplicando Docker](https://livro.descomplicandodocker.com.br/chapters/chapter_01.html)
+- 3: [O que é um container Linux?](https://www.redhat.com/pt-br/topics/containers/whats-a-linux-container)
