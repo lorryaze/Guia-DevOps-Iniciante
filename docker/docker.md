@@ -25,11 +25,9 @@ Abaixo temos uma imagem que mostra essa difereça:
 
 <img width="734" alt="image" src="https://user-images.githubusercontent.com/30262806/189227284-a74b07d0-bc08-46a2-8351-d223d8f55341.png"> (3)
 
-## Docker
+### Docker Engine 
 
 O docker é uma ferramenta que serve para a gerenciar, buildar, executar e até orquestrar containers (**Docker Swarm**), além disso ele pode ser executado tanto em computadores como laptops e desktops como em vms, servidores em nuvem etc, o que o torna uma ferramenta com uma portabilidade muito boa já que você pode executar a mesma imagem de um container em diversos ambientes diferenetes. 
-
-### Docker Engine 
 
 O Docker engine é uma aplicação cliente-servidor, onde o cliente se comunica com o **Docker Daemon (dockerd)** que escutas as requisições da api do docker e faz o gerenciamento dos objetos Docker (imagens, containers, volumes etc). Os componentes da engine do docker são:
 	
