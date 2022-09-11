@@ -27,6 +27,32 @@ Abaixo temos uma imagem que mostra essa difereça:
 
 ## Docker
 
+O docker é uma ferramenta que serve para a gerenciar, buildar, executar e até orquestrar containers (**Docker Swarm**), além disso ele pode ser executado tanto em computadores como laptops e desktops como em vms, servidores em nuvem etc, o que o torna uma ferramenta com uma portabilidade muito boa já que você pode executar a mesma imagem de um container em diversos ambientes diferenetes. 
+
+### Docker Engine 
+
+O Docker engine é uma aplicação cliente-servidor, onde o cliente se comunica com o **Docker Daemon (dockerd)** que escutas as requisições da api do docker e faz o gerenciamento dos objetos Docker (imagens, containers, volumes etc). Os componentes da engine do docker são:
+	
+- Um servidor chamado **Docker Daemon (dockerd)** 
+- Uma API REST que especifica as interfaces que os programas podem usar para conversar com o daemon e instruí-lo sobre o que fazer.
+- Um cliente de interface de linha de comando (CLI) (docker command).
+
+<img width="529" alt="image" src="https://user-images.githubusercontent.com/30262806/189550518-440bbd1d-1621-4149-b8d2-19b2c246ae74.png">
+
+
+O servidor e o cliente podem ser executados (ou não) na mesma máquina, eles se comunicam usando uma API REST, com UNIX sockets ou uma interface de rede.
+
+### Dockerfile (Imagens)
+
+Como já dissemos podemos buildar containers com o docker e para isso utilizamos o Dockerfile, o Dockerfile é o arquivo onde iremos colocar tudo o que o nosso container irá precisar para trabalhar como por exemplo a imagem do sistema operacional no qual o seu container será baseado, a instalação de programas, bibliotecas e etc. O Dockerfile é um arquivo read-only e será o responsável pela criação do seu container, que nada mais é do que uma instância executavel da sua imagem.
+
+### Volumes
+
+Os volumes no docker são os responsáveis por persistirem os dados referentes a um container, eles são inicializados quando criamos o conatiner. Os volumes são diretórios comuns que são criados no host quando criamos o nosso container, ou seja, parar ou até mesmo deletar o seu conatiner não irá destruir esses volumes. Além de persistir os dados do container podemos usar os volumes para compartilhar esses dados.
+
+### Docker Registry
+
+Os resgitries do Docker nada mais são que lugares que utilizamos para armazenar nossas imagens. O DockerHub é um registry público e o Docker tem por configuração default buscar suas imagens nele, utilizando comandos como ```docker pull``` ou ```docker push``` você pode pegar ou subir imagens pro registry, inclusive esses comandos não te lembram algo??? sim os comandos do git ;)
 
 
 -----------------------------------
@@ -35,3 +61,4 @@ Abaixo temos uma imagem que mostra essa difereça:
 - 1: [O que é virtualização?](https://www.redhat.com/pt-br/topics/virtualization/what-is-virtualization)
 - 2: [Livro Descomplicando Docker](https://livro.descomplicandodocker.com.br/chapters/chapter_01.html)
 - 3: [O que é um container Linux?](https://www.redhat.com/pt-br/topics/containers/whats-a-linux-container)
+- 4: [Docker Overview](https://docs.docker.com/get-started/overview/)
