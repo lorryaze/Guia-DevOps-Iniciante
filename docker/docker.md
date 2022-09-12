@@ -52,9 +52,19 @@ Os volumes no docker são os responsáveis por persistirem os dados referentes a
 
 Os resgitries do Docker nada mais são que lugares que utilizamos para armazenar nossas imagens. O DockerHub é um registry público e o Docker tem por configuração default buscar suas imagens nele, utilizando comandos como ```docker pull``` ou ```docker push``` você pode pegar ou subir imagens pro registry, inclusive esses comandos não te lembram algo??? sim os comandos do git ;)
 
+## Bora praticar!!
+
+**Dica: Sempre que tiverem duvidas recomendo a leitura da documentação as leituras aqui indicadas são boas para quem está começando mas na sua vida de dev você precisa aprender a ler e a buscar informações na documentação**
+
+Agora que vimos um pouco de alguns dos principais conceitos do Docker é importante praticarmos para entender melhor como os conceitos funcionam na pratica e obviamente aprendermos a utilizar o docker, em caso de ter ficado alguma duvida (ou não), recomendo a leitura dos materiais citados na descrição pois eles tem uma maior profundidade no assunto (principalmente a própria documentação do Docker)! ;)
+
+**Instalação**: neste link ([Get Docker](https://docs.docker.com/get-docker/)) tem intruções para instalação para mac, linux e windows. 
+</br>**Tutoriais em inglês**: 
+- [Docker Tutorial — Getting Started with Python, Redis, and Nginx.](https://medium.com/hackernoon/docker-tutorial-getting-started-with-python-redis-and-nginx-81a9d740d091)
+- [Docker Tutorial DevOpsGuide](https://github.com/Tikam02/DevOps-Guide/tree/master/Container-orchestration/Docker)
 
 -----------------------------------
-## Referências
+## Referências (Recomendo a leitura destas)
 
 - 1: [O que é virtualização?](https://www.redhat.com/pt-br/topics/virtualization/what-is-virtualization)
 - 2: [Livro Descomplicando Docker](https://livro.descomplicandodocker.com.br/chapters/chapter_01.html)
