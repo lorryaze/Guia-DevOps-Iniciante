@@ -56,6 +56,8 @@ Os resgitries do Docker nada mais são que lugares que utilizamos para armazenar
 
 **Dica: Sempre que tiverem duvidas recomendo a leitura da documentação as leituras aqui indicadas são boas para quem está começando mas na sua vida de dev você precisa aprender a ler e a buscar informações na documentação**
 
+**Dica 2: Coloquei opções de tutoriais em português caso você tenha muita dificuldade com o inglês entretanto recomendo tentar os tutoriais em inglês.**
+
 Agora que vimos um pouco de alguns dos principais conceitos do Docker é importante praticarmos para entender melhor como os conceitos funcionam na pratica e obviamente aprendermos a utilizar o docker, em caso de ter ficado alguma duvida (ou não), recomendo a leitura dos materiais citados na descrição pois eles tem uma maior profundidade no assunto (principalmente a própria documentação do Docker)! ;)
 
 **Instalação**: neste link ([Get Docker](https://docs.docker.com/get-docker/)) tem intruções para instalação para mac, linux e windows. 
@@ -63,6 +65,9 @@ Agora que vimos um pouco de alguns dos principais conceitos do Docker é importa
 - [Docker Tutorial — Getting Started with Python, Redis, and Nginx.](https://medium.com/hackernoon/docker-tutorial-getting-started-with-python-redis-and-nginx-81a9d740d091)
 - [Docker Tutorial DevOpsGuide](https://github.com/Tikam02/DevOps-Guide/tree/master/Container-orchestration/Docker)
 
+</br>**Tutoriais em Português**: 
+- [Tutorial Definitivo de Docker para INICIANTES (Ubuntu)](https://terminalroot.com.br/2019/08/tutorial-definitivo-de-docker-para-iniciantes-ubuntu.html)
+- [Um guia para iniciantes em Docker — como criar sua primeira aplicação com o Docker](https://www.freecodecamp.org/portuguese/news/um-guia-para-iniciantes-em-docker-como-criar-sua-primeira-aplicacao-com-o-docker/)
 -----------------------------------
 ## Referências (Recomendo a leitura destas)
 
